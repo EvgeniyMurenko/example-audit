@@ -35,7 +35,10 @@ public class TestController {
     @GetMapping("/api/v2/document-hub/derivative")
     public ResponseEntity<String> derivative(@RequestParam(name = "dateFrom", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)  LocalDateTime dateFrom,
                                       @RequestParam(name = "dateTo", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)  LocalDateTime dateTo,
-                                      Pageable pageable) {
+                                      Pageable pageable) throws InterruptedException {
+
+        Thread.sleep(5000L);
+
         String response = fileService.realFromFile("contracts-derivative.json");
         return new ResponseEntity<>(response, createHeader(), HttpStatus.OK);
     }
@@ -43,7 +46,8 @@ public class TestController {
     @GetMapping("/api/v1/document-hub/valuation-specialist-leader/imports")
     public ResponseEntity<String> imports(@RequestParam(name = "dateFrom", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)  LocalDateTime dateFrom,
                                       @RequestParam(name = "dateTo", required = false) @DateTimeFormat(iso = DateTimeFormat.ISO.DATE_TIME)  LocalDateTime dateTo,
-                                      Pageable pageable) {
+                                      Pageable pageable) throws InterruptedException {
+        Thread.sleep(5000L);
         String response = fileService.realFromFile("contracts-imports.json");
         return new ResponseEntity<>(response, createHeader(), HttpStatus.OK);
     }
