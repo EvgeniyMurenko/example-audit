@@ -1,6 +1,13 @@
 package com.example.controller;
 
+import com.example.domain.Audit;
+import com.example.domain.AuditListResponse;
+import com.example.domain.AuditPhaseStatus;
+import com.example.domain.AuditResponse;
 import com.example.service.FileService;
+import com.fasterxml.jackson.core.JsonProcessingException;
+import com.fasterxml.jackson.core.type.TypeReference;
+import com.fasterxml.jackson.databind.ObjectMapper;
 import lombok.RequiredArgsConstructor;
 import lombok.extern.slf4j.Slf4j;
 import org.springframework.data.domain.Pageable;
@@ -25,6 +32,13 @@ import java.time.LocalDateTime;
 public class TestController {
 
     private final FileService fileService;
+    private final ObjectMapper objectMapper;
+
+    @GetMapping("/api/v1/audits")
+    public ResponseEntity<String> convert() {
+        String response = fileService.realFromFile("autdit-list.json");
+        return new ResponseEntity<>(response, createHeader(), HttpStatus.OK);
+    }
 
     @PostMapping("/login")
     public ResponseEntity<String> login(@RequestBody String body) {
@@ -65,6 +79,15 @@ public class TestController {
         log.info("Contact approve id = {}", contractId);
         return new ResponseEntity<>(createHeader(), HttpStatus.OK);
     }
+
+    @GetMapping("/api/v1/audits/phaseStatus/{auditId}")
+    public ResponseEntity<AuditResponse<AuditPhaseStatus>> convert(@PathVariable(name = "auditId") String auditId) throws JsonProcessingException {
+
+        String response = fileService.realFromFile("autdit-phase-status.json");
+        AuditResponse<AuditPhaseStatus> auditPhaseStatusAuditListResponse = objectMapper.readValue(response, new TypeReference<AuditResponse<AuditPhaseStatus>>() {});
+        return new ResponseEntity<>(auditPhaseStatusAuditListResponse, createHeader(), HttpStatus.OK);
+    }
+
 
     private HttpHeaders createHeader() {
         HttpHeaders headers = new HttpHeaders();

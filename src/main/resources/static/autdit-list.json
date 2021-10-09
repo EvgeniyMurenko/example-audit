@@ -1,0 +1,5341 @@
+{
+  "data": [
+    {
+      "reference": {
+        "dtAuditID": 2035,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-18",
+      "status": "NOT_STARTED",
+      "internalStatus": "ON_TRACK",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T17:27:37.507Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "createdOn": "2021-10-08T17:17:48.69Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACyCWw=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T17:22:22.1Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T17:22:22.1Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T17:23:58.94Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T17:23:58.94Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7283828Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2034,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-11-03",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T15:19:45.867Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-08T15:18:02.03Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACx84g=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T15:23:01.23Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T15:23:01.23Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T15:24:03.793Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T15:24:03.793Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7283329Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2033,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-11-02",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T14:28:37.133Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-08T14:25:48.143Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACx4eU=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T14:30:54.227Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T14:30:54.227Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T14:32:10.073Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T14:32:10.073Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7282837Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2032,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-11-01",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T12:59:29.313Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-08T12:57:34.367Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-0000000a2651",
+        "accessFailedCount": 0,
+        "email": "olaskov@deloitte.com",
+        "userName": "olaskov@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2021-05-17T13:50:36.157Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "rowVersion": "AAAAAACxz3A=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T13:00:38.833Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T13:00:38.833Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T13:03:54.84Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T13:03:54.84Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7282314Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2031,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-15",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T12:34:59.013Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-08T12:34:50.66Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACxzs0=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7281639Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": true,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2030,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-15",
+      "status": "NOT_STARTED",
+      "internalStatus": "LEGAL_HOLD",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T09:14:40.72Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "createdOn": "2021-10-08T08:32:53.71Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxzhg=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T08:36:43.463Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T08:36:43.463Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T08:38:55.693Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T08:38:55.693Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7281043Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2029,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-14",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-08T07:49:57.463Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-08T07:45:38.313Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxxrQ=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T07:51:46.16Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T07:51:46.16Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-08T07:54:19.977Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T07:54:19.977Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7280545Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2028,
+        "snapShotDate": "2021-03-31",
+        "company": "US1256",
+        "idFund": "Automation Fund",
+        "fundName": "AF FUND (Automation Fund)"
+      },
+      "client": {
+        "id": 1256,
+        "tag": "US1256",
+        "name": "ABENGOA BIOENERGY COMPANY, LLC",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "AF FUND (Automation Fund)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1651671-20",
+      "matEntityId": "1596781",
+      "matEntityName": "TestIssuingOffIssue",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2020-04-01",
+      "auditPeriodEndDate": "2021-03-31",
+      "navCurrentPeriodStartDate": "2020-04-01",
+      "navCurrentPeriodEndDate": "2021-03-31",
+      "navPreviousPeriodEndDate": "2020-03-31",
+      "valuationDate": "2021-03-31",
+      "opinionDate": "2021-10-31",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-07T21:12:49.397Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-07T21:12:48.293Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxxaM=",
+      "engagementRole": {
+        "id": "2",
+        "name": "dnavfe.engrole.partner",
+        "description": "DNAV-FE Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7279993Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": true,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2027,
+        "snapShotDate": "2021-03-31",
+        "company": "US1256",
+        "idFund": "Automation Fund",
+        "fundName": "AF FUND (Automation Fund)"
+      },
+      "client": {
+        "id": 1256,
+        "tag": "US1256",
+        "name": "ABENGOA BIOENERGY COMPANY, LLC",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "AF FUND (Automation Fund)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1651671-20",
+      "matEntityId": "1596781",
+      "matEntityName": "TestIssuingOffIssue",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 24415008.0,
+      "averageNAVdays": 249.0,
+      "yearEndNAV": 23925413.0,
+      "materialityThreshold": 488300.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 439470.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 24415.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2020-04-01",
+      "auditPeriodEndDate": "2021-03-31",
+      "navCurrentPeriodStartDate": "2020-04-01",
+      "navCurrentPeriodEndDate": "2021-03-31",
+      "navPreviousPeriodEndDate": "2020-03-31",
+      "valuationDate": "2021-03-31",
+      "opinionDate": "2021-10-31",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-07T18:16:24.53Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-07T18:10:40.587Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxwEU=",
+      "engagementRole": {
+        "id": "2",
+        "name": "dnavfe.engrole.partner",
+        "description": "DNAV-FE Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T18:18:17.627Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T18:18:17.627Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T18:38:12.21Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T18:38:12.21Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7279759Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2026,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-13",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-07T11:38:26.16Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-07T11:35:59.043Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxo8I=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T11:40:27.393Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T11:40:27.393Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T11:42:01.433Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T11:42:01.433Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7279266Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2025,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-12",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-07T10:54:28.987Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-07T08:55:07.867Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxn/o=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T10:57:52.873Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T10:57:52.873Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T11:03:48.087Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T11:03:48.087Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7278698Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2024,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-11",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-07T08:22:46.26Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-07T08:21:04.387Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACxmyI=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T08:25:53.763Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T08:25:53.763Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-07T08:26:51.97Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-07T08:26:51.97Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7278088Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2023,
+        "snapShotDate": "2019-09-30",
+        "company": "US3",
+        "idFund": "556677",
+        "fundName": "556677 (556677)"
+      },
+      "client": {
+        "id": 3,
+        "tag": "US3",
+        "name": "Dr Pepper Snapple Group, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "JPY",
+        "fundName": "556677 (556677)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1599493-20",
+      "matEntityId": "268313",
+      "matEntityName": "Keurig Dr. Pepper Inc.",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 134000000000.0,
+      "averageNAVdays": 9.0,
+      "materialityThreshold": 2680000000.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 2412000000.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 134000000.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2018-10-01",
+      "auditPeriodEndDate": "2019-09-30",
+      "navCurrentPeriodStartDate": "2018-10-01",
+      "navCurrentPeriodEndDate": "2019-09-30",
+      "navPreviousPeriodEndDate": "2018-09-28",
+      "valuationDate": "2019-09-30",
+      "archiveControlDate": "2021-10-13",
+      "opinionDate": "2021-10-14",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-06T16:50:39.78Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-06T16:46:50.15Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-0000772d05ca",
+        "accessFailedCount": 0,
+        "email": "nabogamiza@deloitte.com",
+        "userName": "nabogamiza@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2021-04-19T17:03:29.73Z",
+        "createdById": "00000000-0000-0000-0000-0000772cf6ce"
+      },
+      "rowVersion": "AAAAAACxcnY=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-06T16:51:59.533Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-06T16:51:59.533Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-06T16:53:59.887Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-06T16:53:59.887Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7277569Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2022,
+        "snapShotDate": "2019-09-30",
+        "company": "US3",
+        "idFund": "556677",
+        "fundName": "556677 (556677)"
+      },
+      "client": {
+        "id": 3,
+        "tag": "US3",
+        "name": "Dr Pepper Snapple Group, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "JPY",
+        "fundName": "556677 (556677)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1599493-20",
+      "matEntityId": "268313",
+      "matEntityName": "Keurig Dr. Pepper Inc.",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 134000000000.0,
+      "averageNAVdays": 9.0,
+      "materialityThreshold": 2680000000.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 2412000000.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 134000000.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2018-10-01",
+      "auditPeriodEndDate": "2019-09-30",
+      "navCurrentPeriodStartDate": "2018-10-01",
+      "navCurrentPeriodEndDate": "2019-09-30",
+      "navPreviousPeriodEndDate": "2018-09-28",
+      "valuationDate": "2019-09-30",
+      "archiveControlDate": "2021-10-27",
+      "opinionDate": "2021-10-26",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-06T13:32:25.16Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-06T12:11:07.99Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-0000772d05ca",
+        "accessFailedCount": 0,
+        "email": "nabogamiza@deloitte.com",
+        "userName": "nabogamiza@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2021-04-19T17:03:29.73Z",
+        "createdById": "00000000-0000-0000-0000-0000772cf6ce"
+      },
+      "rowVersion": "AAAAAACxSr8=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-06T13:35:15.77Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-06T13:35:15.77Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-06T14:02:17.437Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-06T14:02:17.437Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7277072Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2021,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-10",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-06T08:36:11.343Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-06T08:34:54.993Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-0000000a2651",
+        "accessFailedCount": 0,
+        "email": "olaskov@deloitte.com",
+        "userName": "olaskov@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2021-05-17T13:50:36.157Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "rowVersion": "AAAAAACxNxg=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-06T08:37:48.233Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-06T08:37:48.233Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-06T08:38:56.747Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-06T08:38:56.747Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7276389Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2020,
+        "snapShotDate": "2019-09-30",
+        "company": "US3",
+        "idFund": "556677",
+        "fundName": "556677 (556677)"
+      },
+      "client": {
+        "id": 3,
+        "tag": "US3",
+        "name": "Dr Pepper Snapple Group, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "JPY",
+        "fundName": "556677 (556677)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1599493-20",
+      "matEntityId": "268313",
+      "matEntityName": "Keurig Dr. Pepper Inc.",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 134000000000.0,
+      "averageNAVdays": 9.0,
+      "materialityThreshold": 2680000000.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 2412000000.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 134000000.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2018-10-01",
+      "auditPeriodEndDate": "2019-09-30",
+      "navCurrentPeriodStartDate": "2018-10-01",
+      "navCurrentPeriodEndDate": "2019-09-30",
+      "navPreviousPeriodEndDate": "2018-09-28",
+      "valuationDate": "2019-09-30",
+      "archiveControlDate": "2021-10-18",
+      "opinionDate": "2021-10-11",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-05T18:39:09.883Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-05T18:34:49.32Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-0000772d05ca",
+        "accessFailedCount": 0,
+        "email": "nabogamiza@deloitte.com",
+        "userName": "nabogamiza@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2021-04-19T17:03:29.73Z",
+        "createdById": "00000000-0000-0000-0000-0000772cf6ce"
+      },
+      "rowVersion": "AAAAAACxDoo=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T18:41:23.723Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T18:41:23.723Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T18:45:31.093Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T18:45:31.093Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7275879Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2019,
+        "snapShotDate": "2019-09-30",
+        "company": "US3",
+        "idFund": "556677",
+        "fundName": "556677 (556677)"
+      },
+      "client": {
+        "id": 3,
+        "tag": "US3",
+        "name": "Dr Pepper Snapple Group, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "JPY",
+        "fundName": "556677 (556677)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1599493-20",
+      "matEntityId": "268313",
+      "matEntityName": "Keurig Dr. Pepper Inc.",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 134000000000.0,
+      "averageNAVdays": 9.0,
+      "materialityThreshold": 2680000000.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 2412000000.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 134000000.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2018-10-01",
+      "auditPeriodEndDate": "2019-09-30",
+      "navCurrentPeriodStartDate": "2018-10-01",
+      "navCurrentPeriodEndDate": "2019-09-30",
+      "navPreviousPeriodEndDate": "2018-09-28",
+      "valuationDate": "2019-09-30",
+      "archiveControlDate": "2021-10-17",
+      "opinionDate": "2021-10-17",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-05T17:50:11.297Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-05T17:41:07.793Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-0000772d05ca",
+        "accessFailedCount": 0,
+        "email": "nabogamiza@deloitte.com",
+        "userName": "nabogamiza@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2021-04-19T17:03:29.73Z",
+        "createdById": "00000000-0000-0000-0000-0000772cf6ce"
+      },
+      "rowVersion": "AAAAAACw9X4=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T17:52:50.873Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T17:52:50.873Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T17:55:04.867Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T17:55:04.867Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.727522Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2018,
+        "snapShotDate": "2021-03-31",
+        "company": "US1256",
+        "idFund": "Automation Fund",
+        "fundName": "AF FUND (Automation Fund)"
+      },
+      "client": {
+        "id": 1256,
+        "tag": "US1256",
+        "name": "ABENGOA BIOENERGY COMPANY, LLC",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "AF FUND (Automation Fund)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1651671-20",
+      "matEntityId": "1596781",
+      "matEntityName": "TestIssuingOffIssue",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 24415008.0,
+      "averageNAVdays": 249.0,
+      "yearEndNAV": 23925413.0,
+      "materialityThreshold": 488300.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 439470.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 24415.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2020-04-01",
+      "auditPeriodEndDate": "2021-03-31",
+      "navCurrentPeriodStartDate": "2020-04-01",
+      "navCurrentPeriodEndDate": "2021-03-31",
+      "navPreviousPeriodEndDate": "2020-03-31",
+      "valuationDate": "2021-03-31",
+      "opinionDate": "2021-10-30",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-05T12:58:52.273Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-05T12:46:03.737Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACw4LU=",
+      "engagementRole": {
+        "id": "2",
+        "name": "dnavfe.engrole.partner",
+        "description": "DNAV-FE Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T13:00:18.947Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T13:00:18.947Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T13:04:08.19Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T13:04:08.19Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7274707Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2017,
+        "snapShotDate": "2019-09-30",
+        "company": "US1",
+        "idFund": "2222",
+        "fundName": "1111 (2222)"
+      },
+      "client": {
+        "id": 1,
+        "tag": "US1",
+        "name": "BlackRock, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "JPY",
+        "fundName": "1111 (2222)"
+      },
+      "matEngagementId": "MAT-E101303-19",
+      "matEntityId": "1588825",
+      "matEntityName": "Reporting Entity - 40 Act - 1",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2018-10-01",
+      "auditPeriodEndDate": "2019-09-30",
+      "navCurrentPeriodStartDate": "2018-10-01",
+      "navCurrentPeriodEndDate": "2019-09-30",
+      "navPreviousPeriodEndDate": "2018-09-28",
+      "valuationDate": "2019-09-30",
+      "opinionDate": "2021-10-12",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-05T11:52:00.47Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-05T11:46:58.31Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACw0xw=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T11:54:33.017Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T11:54:33.017Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-05T11:56:28.82Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-05T11:56:28.82Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7274199Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2013,
+        "snapShotDate": "2018-09-30",
+        "company": "US3",
+        "idFund": "19999",
+        "fundName": "19999 (19999)"
+      },
+      "client": {
+        "id": 3,
+        "tag": "US3",
+        "name": "Dr Pepper Snapple Group, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "EUR",
+        "fundName": "19999 (19999)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1599485-19",
+      "matEntityId": "1506633",
+      "matEntityName": "Client 1 - RE1",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 30298199383.0,
+      "averageNAVdays": 5.0,
+      "materialityThreshold": 605963987.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 545367588.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 30298199.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2017-10-01",
+      "auditPeriodEndDate": "2018-09-30",
+      "navCurrentPeriodStartDate": "2017-10-02",
+      "navCurrentPeriodEndDate": "2018-09-28",
+      "navPreviousPeriodEndDate": "2017-09-29",
+      "valuationDate": "2018-09-28",
+      "opinionDate": "2021-10-31",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-04T16:34:46.29Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-04T16:26:14.2Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACwvW8=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-04T16:40:51.503Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-04T16:40:51.503Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-04T16:45:47.377Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-04T16:45:47.377Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7273515Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2012,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "PER19",
+        "fundName": "PER19 (PER19)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "PER19 (PER19)",
+        "depositary": "Old"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 185641644.0,
+      "averageNAVdays": 250.0,
+      "yearEndNAV": 195943668.0,
+      "materialityThreshold": 3712832.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 3341549.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 185641.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-31",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-04T16:17:26.95Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "createdOn": "2021-10-04T15:59:35.483Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACwvVI=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-04T16:07:36.487Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-04T16:07:36.487Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-04T16:09:57.083Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-04T16:09:57.083Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7273013Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": true
+    },
+    {
+      "reference": {
+        "dtAuditID": 2011,
+        "snapShotDate": "2019-12-31",
+        "company": "US1256",
+        "idFund": "MDS",
+        "fundName": "MDS (MDS)"
+      },
+      "client": {
+        "id": 1256,
+        "tag": "US1256",
+        "name": "ABENGOA BIOENERGY COMPANY, LLC",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "JPY",
+        "fundName": "MDS (MDS)",
+        "depositary": "ABC"
+      },
+      "matEngagementId": "MAT-E1651671-20",
+      "matEntityId": "1596781",
+      "matEntityName": "TestIssuingOffIssue",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 92847061.0,
+      "averageNAVdays": 250.0,
+      "yearEndNAV": 94465863.0,
+      "materialityThreshold": 1856941.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 1671247.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 92847.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-31",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-04T15:24:51.66Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-04T15:21:17.053Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACwr/M=",
+      "engagementRole": {
+        "id": "2",
+        "name": "dnavfe.engrole.partner",
+        "description": "DNAV-FE Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-04T15:30:52.503Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-04T15:30:52.503Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-04T15:34:12.973Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-04T15:34:12.973Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7272483Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2010,
+        "snapShotDate": "2021-03-31",
+        "company": "US1256",
+        "idFund": "Automation Fund",
+        "fundName": "AF FUND (Automation Fund)"
+      },
+      "client": {
+        "id": 1256,
+        "tag": "US1256",
+        "name": "ABENGOA BIOENERGY COMPANY, LLC",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "AF FUND (Automation Fund)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1651671-20",
+      "matEntityId": "1596781",
+      "matEntityName": "TestIssuingOffIssue",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2020-04-01",
+      "auditPeriodEndDate": "2021-03-31",
+      "navCurrentPeriodStartDate": "2020-04-01",
+      "navCurrentPeriodEndDate": "2021-03-31",
+      "navPreviousPeriodEndDate": "2020-03-31",
+      "valuationDate": "2021-03-31",
+      "opinionDate": "2021-10-30",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-01T13:24:19.96Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-01T13:24:16.97Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACwdS8=",
+      "engagementRole": {
+        "id": "2",
+        "name": "dnavfe.engrole.partner",
+        "description": "DNAV-FE Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7271786Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": true,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2009,
+        "snapShotDate": "2021-03-31",
+        "company": "US1256",
+        "idFund": "Automation Fund",
+        "fundName": "AF FUND (Automation Fund)"
+      },
+      "client": {
+        "id": 1256,
+        "tag": "US1256",
+        "name": "ABENGOA BIOENERGY COMPANY, LLC",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "AF FUND (Automation Fund)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1651671-20",
+      "matEntityId": "1596781",
+      "matEntityName": "TestIssuingOffIssue",
+      "matFiscalYear": 2020,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 24415008.0,
+      "averageNAVdays": 249.0,
+      "yearEndNAV": 23925413.0,
+      "materialityThreshold": 488300.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 439470.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 24415.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2020-01-01",
+      "auditPeriodEndDate": "2021-03-31",
+      "navCurrentPeriodStartDate": "2020-01-01",
+      "navCurrentPeriodEndDate": "2021-03-31",
+      "navPreviousPeriodEndDate": "2019-12-31",
+      "valuationDate": "2021-03-31",
+      "opinionDate": "2021-10-22",
+      "status": "NOT_STARTED",
+      "internalStatus": "LEGAL_HOLD",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-05T11:13:13.583Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "createdOn": "2021-10-01T13:15:25.437Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACw0s8=",
+      "engagementRole": {
+        "id": "2",
+        "name": "dnavfe.engrole.partner",
+        "description": "DNAV-FE Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T13:20:43.13Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T13:20:43.13Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T13:22:07.48Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T13:22:07.48Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7271577Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2008,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-21",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-01T13:04:01.927Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-01T12:07:37.62Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACwbu0=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T13:07:39.697Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T13:07:39.697Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T13:09:56.223Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T13:09:56.223Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7271059Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2007,
+        "snapShotDate": "2018-09-30",
+        "company": "US3",
+        "idFund": "19999",
+        "fundName": "19999 (19999)"
+      },
+      "client": {
+        "id": 3,
+        "tag": "US3",
+        "name": "Dr Pepper Snapple Group, Inc.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "EUR",
+        "fundName": "19999 (19999)",
+        "depositary": "BBH"
+      },
+      "matEngagementId": "MAT-E1599485-19",
+      "matEntityId": "1506633",
+      "matEntityName": "Client 1 - RE1",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "averageNAV": 30298199383.0,
+      "averageNAVdays": 5.0,
+      "materialityThreshold": 605963987.0,
+      "materialityFactor": 0.02,
+      "performanceMaterialityThreshold": 545367588.0,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialThreshold": 30298199.0,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2017-10-01",
+      "auditPeriodEndDate": "2018-09-30",
+      "navCurrentPeriodStartDate": "2017-10-02",
+      "navCurrentPeriodEndDate": "2018-09-28",
+      "navPreviousPeriodEndDate": "2017-09-29",
+      "valuationDate": "2018-09-28",
+      "opinionDate": "2021-10-05",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-01T10:44:59.26Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-10-01T10:39:41.577Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACwags=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T10:46:59.133Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T10:46:59.133Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T10:52:03.18Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T10:52:03.18Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7270211Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2006,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-10",
+      "status": "NOT_STARTED",
+      "internalStatus": "ON_TRACK",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-09-30T12:00:53.977Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "createdOn": "2021-09-30T11:40:43.267Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "rowVersion": "AAAAAACwBHA=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-09-30T11:46:05.2Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-09-30T11:46:05.2Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-09-30T11:49:01.963Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-09-30T11:49:01.963Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.726949Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2005,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-07",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-09-30T10:27:43.357Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-09-30T10:27:42.01Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACv+p8=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.72688Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": true,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2004,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-06",
+      "status": "NOT_STARTED",
+      "internalStatus": "LEGAL_HOLD",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-01T12:53:39.963Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000077171f5b",
+        "accessFailedCount": 0,
+        "email": "AuditTest10002@deloitte.com",
+        "userName": "AuditTest10002@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-26T15:54:40.96Z",
+        "createdById": "00000000-0000-0000-0000-000077171fbe"
+      },
+      "createdOn": "2021-09-30T10:27:01.77Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACwbuA=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T11:50:50.877Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T11:50:50.877Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T11:53:27.22Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T11:53:27.22Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7268507Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    },
+    {
+      "reference": {
+        "dtAuditID": 2003,
+        "snapShotDate": "2019-12-31",
+        "company": "US2",
+        "idFund": "1 MatchIT 210923",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)"
+      },
+      "client": {
+        "id": 2,
+        "tag": "US2",
+        "name": " Tyche Partners, L.P.",
+        "memberFirm": "US",
+        "created": "0001-01-01T00:00:00Z"
+      },
+      "fundProperties": {
+        "currencyCode": "USD",
+        "fundName": "1 MatchIT 210923 (1 MatchIT 210923)",
+        "depositary": "MatchIT_Ptrn"
+      },
+      "matEngagementId": "MAT-E1604124-19",
+      "matEntityId": "1583532",
+      "matEntityName": "10k_test_Sveta",
+      "matFiscalYear": 2019,
+      "grouping": "GEO",
+      "accountingStandard": "US GAAP",
+      "materialityFactor": 0.02,
+      "performanceMaterialityFactor": 0.9,
+      "clearlyTrivialFactor": 0.05,
+      "flagPublicInterestEntity": false,
+      "empireTimeCode": "",
+      "auditPeriodStartDate": "2019-01-01",
+      "auditPeriodEndDate": "2019-12-31",
+      "navCurrentPeriodStartDate": "2019-01-01",
+      "navCurrentPeriodEndDate": "2019-12-31",
+      "navPreviousPeriodEndDate": "2018-12-31",
+      "valuationDate": "2019-12-31",
+      "opinionDate": "2021-10-05",
+      "status": "NOT_STARTED",
+      "internalStatus": "NOT_STARTED",
+      "bookvalueBookingMethod": "FIFO",
+      "modifiedOn": "2021-10-01T08:14:11.703Z",
+      "modifiedBy": {
+        "id": "00000000-0000-0000-0000-000000000000",
+        "accessFailedCount": 0,
+        "email": "system@dnav",
+        "userName": "system",
+        "firstName": "DNAV",
+        "lastName": "System",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-05-07T23:04:03.773Z",
+        "createdById": "00000000-0000-0000-0000-000000000000"
+      },
+      "createdOn": "2021-09-30T10:26:14.55Z",
+      "flagArchived": false,
+      "flagReadOnly": false,
+      "createdBy": {
+        "id": "00000000-0000-0000-0000-00003b997140",
+        "accessFailedCount": 0,
+        "email": "audittest10005@deloitte.com",
+        "userName": "audittest10005@deloitte.com",
+        "firstName": "Nak",
+        "lastName": "Nak",
+        "locale": "en-US",
+        "associatedMemberFirms": [],
+        "created": "2020-08-19T10:01:05.023Z",
+        "createdById": "00000000-0000-0000-0000-000077171f5b"
+      },
+      "rowVersion": "AAAAAACwF58=",
+      "engagementRole": {
+        "id": "1",
+        "name": "dnavfe.engrole.epartner",
+        "description": "DNAV-FE Engagement Partner (ER)"
+      },
+      "auditStatus": {
+        "phases": [
+          {
+            "name": "phase.preparation",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T08:18:00.143Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T08:18:00.143Z"
+          },
+          {
+            "name": "phase.planning",
+            "status": "reviewed",
+            "reviewedBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "reviewedOn": "2021-10-01T08:29:15.34Z",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-01T08:29:15.34Z"
+          },
+          {
+            "name": "phase.conduction",
+            "status": "inpreparation",
+            "createdBy": {
+              "id": "00000000-0000-0000-0000-000000000000",
+              "accessFailedCount": 0,
+              "email": "system@dnav",
+              "emailConfirmed": true,
+              "lockoutEnabled": false,
+              "phoneNumberConfirmed": false,
+              "twoFactorEnabled": false,
+              "userName": "system",
+              "firstName": "DNAV",
+              "lastName": "System",
+              "locale": "en-US",
+              "associatedMemberFirms": [],
+              "created": "0001-01-01T00:00:00Z"
+            },
+            "created": "2021-10-08T18:19:29.7267931Z"
+          },
+          {
+            "name": "phase.conclusion",
+            "status": "waiting"
+          },
+          {
+            "name": "phase.reporting",
+            "status": "waiting"
+          }
+        ]
+      },
+      "flagHideSummary": true,
+      "flagShowTotals": true,
+      "flagShowImport": false,
+      "flagRiskAssessment": false
+    }
+  ],
+  "meta": {
+    "code": 200
+  },
+  "pagination": {
+    "total": 893,
+    "returned": 30,
+    "next_url": "/api/v1/audits?sort=-reference.dtAuditID,opinionDate,-id&pageNo=2&pageSize=30",
+    "first_url": "/api/v1/audits?sort=-reference.dtAuditID,opinionDate,-id&pageNo=1&pageSize=30",
+    "last_url": "/api/v1/audits?sort=-reference.dtAuditID,opinionDate,-id&pageNo=30&pageSize=30"
+  }
+}
